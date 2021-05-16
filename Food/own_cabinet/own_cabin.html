@@ -1,0 +1,412 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аккаунт</title>
+    <link rel="stylesheet" href="../css/cabin_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400;1,700&family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="../css/all.min.css" type="text/css">
+    <script src="../js/jquery.js"></script>
+</head>
+  <body>
+    <div class="active_add_meal"></div>
+      <header class="header">
+        <div class="cabin-container">
+          <div class="flex-header">
+            <div class="logo">
+              <img src="../img/logo.png" alt="logo">
+            </div>
+            <div class="chat_sup">
+              <a href="#" class="main-menu-a">Главная</a>
+              <a href="#" class="main-menu-a">Стена</a>
+              <a href="#" class="main-menu-a">Заказы</a>
+              <a href="#" class="main-menu-a">Настройки</a>
+              <a href="#" class="chatt"><i class="fa fa-comments"></i></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="inner">
+        <div class="cabin-container">
+          <div class="info_accaunt">
+            <div class="user_img">
+              <img src="../img/slideShow/slide1.jpg" alt="user">
+            </div>
+            <div class="info_user">
+              <div class="flex-info">
+                <div class="info_rating">
+                  <span>4.7 </span><i class="fa fa-star star"></i>
+                </div>
+                <div class="quantity_products">
+                  <i class="fa fa-food"></i><span>158 </span>товаров
+                </div>
+                <div class="some">
+                  12 lorem
+                </div>
+              </div><!-- Flex info -->
+              <div class="favorite">
+                <button class="fav_click">Добавить в избранное</button>
+              </div>
+            </div><!-- Info_user -->
+          </div><!-- Info_accaunt -->
+        </div>
+      </div><!-- Inner -->
+
+
+      <div class="store_about">
+        <div class="cabin-container">
+          <h1 class="store-name">Taj Burger</h1>
+          <div class="store-info">
+            <div class="about-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dignissimos officiis,
+                asperiores suscipit. Odio cum quaerat expedita, consequuntur ab nisi. Facere tempore
+                reprehenderit fuga accusantium rem temporibus, eum sed molestiae et, porro pariatur
+                omnis.lor</p>
+            </div>
+            <div class="main-info-text">
+              <div class="type">
+                Бургеры
+              </div>
+              <div class="city">
+                <i class="fa fa-map-marker map"></i>Худжанд
+              </div>
+              <div class="phone">
+                92-200-00-20
+              </div>
+            </div><!-- Main-info-text -->
+          </div>
+        </div>
+      </div>
+
+      <div class="our-menu">
+        <div class="cabin-container">
+          <div class="straight-div">
+            <h3 class="straight-main-text">Наше Меню</h3>
+          </div>
+
+
+          <div class="add_meal">
+            <div>
+            <button type="button" name="button" class="exit-add-meal"><li class="fa fa-times"></li></button>
+            <h1 id="add_meal_h1">Добавьте в <span id="newColor">один</span> клик</h1>
+              <form action="">
+              <div>
+                <input type="text" placeholder="Имя еды" class="input_add_meal">
+                <input type="number" placeholder="Цена" class="input_add_meal">
+              </div>
+              <div class="sizez-meal-add">
+                <h2 class="common_h2">Размеры</h2>
+                <div><input type="checkbox" id="add_cat_meal"><label for="add_cat_meal">Большое</label></div>
+                <div><input type="checkbox" id="add_cat_meal"><label for="add_cat_meal">Средный</label></div>
+                <div><input type="checkbox" id="add_cat_meal"><label for="add_cat_meal">Маленький</label></div>
+              </div>
+              <div class="add-img-div">
+                <input type="file" name="file" id="file-img-meal" accept="image/*">
+                <label for="file-img-meal" class="add-img-meal"><li class="fa fa-image"></li>Выбрать картинку</label>
+              </div>
+              <div class="category-add-meal">
+                <h2 class="common_h2">Создайте <span id="newColor">новую категорию</span> или добавьте в существующее</h2>
+                <input type="text" placeholder="Имя новой категории" class="input_add_meal">
+                <select class="option-meal" name="">
+                  <option value="">Новинки и популярные</option>
+                  <option value="">Пиццы</option>
+                  <option value="">Бургеры</option>
+                  <option value="">Бургеры</option>
+                  <option value="">Бургеры</option>
+                </select>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ea soluta tempora saepe
+                  ipsam inventore doloremque suscipit consequatur, amet, ducimus earum eum explicabo neque dolores
+                  dicta voluptas quaerat. Minus, suscipit pariatur ad aspernatur! Aut facilis est sunt cumque vel
+                  deserunt assumenda vitae explicabo dolor eveniet.</p>
+              </div>
+              <button type="button" name="button" class="add-to-menu-btn">Добавить в меню</button>
+
+              </form>
+            </div>
+          </div><!-- Add Meal -->
+
+
+          <div class="menu-content">
+            <div class="meals">
+              <div class="meal-cat">
+                <div class="flex-top">
+                  <h3 class="name-h3">Новинки и популярные</h3>
+                  <div class="buttons-top">
+                    <div class="search-box">
+                      <input type="text" name="button-search-cab" class="search-text-cab" placeholder="Что искать..."/>
+                      <a href="#" class="button-search-cab"><i class="fa fa-search searchik"></i></a>
+                    </div>
+                    <div class="btn-div-plus">
+                    <button name="button-plus" class="button-plus"><i class="fa fa-plus plusic"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="meals-flex">
+                  <div class="main-meal-content">
+                      <div class="img-meal new">
+                        <img src="../img/test/new1.jpg" alt="meal">
+                      </div>
+                      <div class="meal-name">
+                        Бизнес ланч
+                      </div>
+                      <div class="size">
+                        <span class="sizes active">Мал</span>
+                        <span class="sizes">Ср</span>
+                        <span class="sizes">Бол</span>
+                      </div>
+                      <div class="bottom-content">
+                        <div class="price">
+                          18 сомони
+                        </div>
+                        <button class="shop-btn"><i class="fa fa-cart-plus"></i></button>
+                      </div>
+                  </div><!-- Main-meal-content -->
+
+                  <div class="main-meal-content">
+                      <div class="img-meal new">
+                        <img src="../img/test/new2.jpg" alt="meal">
+                      </div>
+                      <div class="meal-name">
+                        Мега пега вега ланч
+                      </div>
+                      <div class="size">
+                        <span class="sizes">Мал</span>
+                        <span class="sizes">Ср</span>
+                        <span class="sizes active">Бол</span>
+                      </div>
+                      <div class="bottom-content">
+                        <div class="price">
+                          30 сомони
+                        </div>
+                        <button class="shop-btn"><i class="fa fa-cart-plus"></i></button>
+                      </div>
+                  </div><!-- Main-meal-content -->
+
+                  <div class="main-meal-content">
+                      <div class="img-meal hot">
+                        <img src="../img/test/hot1.jpg" alt="meal">
+                      </div>
+                      <div class="meal-name">
+                        Крылышки для всех
+                      </div>
+                      <div class="size">
+                        <span class="sizes">Мал</span>
+                        <span class="sizes active">Ср</span>
+                        <span class="sizes">Бол</span>
+                      </div>
+                      <div class="bottom-content">
+                        <div class="price">
+                          25 сомони
+                        </div>
+                        <button class="shop-btn"><i class="fa fa-cart-plus"></i></button>
+                      </div>
+                  </div><!-- Main-meal-content -->
+
+                  <div class="main-meal-content">
+                      <div class="img-meal hot">
+                        <img src="../img/test/hot2.jpg" alt="meal">
+                      </div>
+                      <div class="meal-name">
+                        ГигаБургер
+                      </div>
+                      <div class="size">
+                        <span class="sizes">Мал</span>
+                        <span class="sizes">Ср</span>
+                        <span class="sizes active">Бол</span>
+                      </div>
+                      <div class="bottom-content">
+                        <div class="price">
+                          20 сомони
+                        </div>
+                        <button class="shop-btn"><i class="fa fa-cart-plus"></i></button>
+                      </div>
+                  </div><!-- Main-meal-content -->
+
+                </div><!-- Meals flex -->
+
+              </div><!-- Meals-cat -->
+
+
+              <div class="meal-cat">
+                  <h3 class="name-h3">Пицца</h3>
+                <div class="meals-flex">
+                  <div class="main-meal-content">
+                      <div class="img-meal">
+                        <img src="../img/test/pizza1.jpg" alt="meal">
+                      </div>
+                      <div class="meal-name">
+                        Итальянская пицца колбасная...
+                      </div>
+                      <div class="size">
+                        <span class="sizes active">Мал</span>
+                        <span class="sizes">Ср</span>
+                        <span class="sizes">Бол</span>
+                      </div>
+                      <div class="bottom-content">
+                        <div class="price">
+                          20 сомони
+                        </div>
+                        <button class="shop-btn"><i class="fa fa-cart-plus"></i></button>
+                      </div>
+                  </div><!-- Main-meal-content -->
+
+                  <div class="main-meal-content">
+                      <div class="img-meal">
+                        <img src="../img/test/pizza2.jpg" alt="meal">
+                      </div>
+                      <div class="meal-name">
+                        Итальянская пицца колбасная
+                      </div>
+                      <div class="size">
+                        <span class="sizes active">Мал</span>
+                        <span class="sizes">Ср</span>
+                        <span class="sizes">Бол</span>
+                      </div>
+                      <div class="bottom-content">
+                        <div class="price">
+                          20 сомони
+                        </div>
+                        <button class="shop-btn"><i class="fa fa-cart-plus"></i></button>
+                      </div>
+                  </div><!-- Main-meal-content -->
+
+                  <div class="main-meal-content">
+                      <div class="img-meal">
+                        <img src="../img/test/pizza1.jpg" alt="meal">
+                      </div>
+                      <div class="meal-name">
+                        Итальянская пицца колбасная
+                      </div>
+                      <div class="size">
+                        <span class="sizes">Мал</span>
+                        <span class="sizes active">Ср</span>
+                        <span class="sizes">Бол</span>
+                      </div>
+                      <div class="bottom-content">
+                        <div class="price">
+                          25 сомони
+                        </div>
+                        <button class="shop-btn"><i class="fa fa-cart-plus"></i></button>
+                      </div>
+                  </div><!-- Main-meal-content -->
+
+                  <div class="main-meal-content">
+                      <div class="img-meal">
+                        <img src="../img/test/pizza2.jpg" alt="meal">
+                      </div>
+                      <div class="meal-name">
+                        Итальянская пицца колбасная
+                      </div>
+                      <div class="size">
+                        <span class="sizes">Мал</span>
+                        <span class="sizes">Ср</span>
+                        <span class="sizes active">Бол</span>
+                      </div>
+                      <div class="bottom-content">
+                        <div class="price">
+                          40 сомони
+                        </div>
+                        <button class="shop-btn"><i class="fa fa-cart-plus"></i></button>
+                      </div>
+                  </div><!-- Main-meal-content -->
+
+                </div><!-- Meals flex -->
+
+              </div><!-- Meals-cat -->
+
+              <div class="meal-cat">
+                  <h3 class="name-h3">Бургеры</h3>
+                <div class="meals-flex">
+                  <div class="main-meal-content">
+                      <div class="img-meal">
+                        <img src="../img/test/burger1.jpg" alt="meal">
+                      </div>
+                      <div class="meal-name">
+                        Бургер какой то...
+                      </div>
+                      <div class="size">
+                        <span class="sizes active">Мал</span>
+                        <span class="sizes">Ср</span>
+                        <span class="sizes">Бол</span>
+                      </div>
+                      <div class="bottom-content">
+                        <div class="price">
+                          5 сомони
+                        </div>
+                        <button class="shop-btn"><i class="fa fa-cart-plus"></i></button>
+                      </div>
+                  </div><!-- Main-meal-content -->
+
+                  <div class="main-meal-content">
+                      <div class="img-meal">
+                        <img src="../img/test/burger2.jpg" alt="meal">
+                      </div>
+                      <div class="meal-name">
+                        Мега пега бургер
+                      </div>
+                      <div class="size">
+                        <span class="sizes">Мал</span>
+                        <span class="sizes active">Ср</span>
+                        <span class="sizes">Бол</span>
+                      </div>
+                      <div class="bottom-content">
+                        <div class="price">
+                          10 сомони
+                        </div>
+                        <button class="shop-btn"><i class="fa fa-cart-plus"></i></button>
+                      </div>
+                  </div><!-- Main-meal-content -->
+
+                  <div class="main-meal-content">
+                      <div class="img-meal">
+                        <img src="../img/test/burger1.jpg" alt="meal">
+                      </div>
+                      <div class="meal-name">
+                        Бургер от души
+                      </div>
+                      <div class="size">
+                        <span class="sizes">Мал</span>
+                        <span class="sizes">Ср</span>
+                        <span class="sizes active">Бол</span>
+                      </div>
+                      <div class="bottom-content">
+                        <div class="price">
+                          14 сомони
+                        </div>
+                        <button class="shop-btn"><i class="fa fa-cart-plus"></i></button>
+                      </div>
+                  </div><!-- Main-meal-content -->
+
+                  <div class="main-meal-content">
+                      <div class="img-meal">
+                        <img src="../img/test/burger2.jpg" alt="meal">
+                      </div>
+                      <div class="meal-name">
+                        Простой
+                      </div>
+                      <div class="size">
+                        <span class="sizes">Мал</span>
+                        <span class="sizes active">Ср</span>
+                        <span class="sizes">Бол</span>
+                      </div>
+                      <div class="bottom-content">
+                        <div class="price">
+                          10 сомони
+                        </div>
+                        <button class="shop-btn"><i class="fa fa-cart-plus"></i></button>
+                      </div>
+                  </div><!-- Main-meal-content -->
+
+                </div><!-- Pizzas flex -->
+
+              </div><!-- Meal- cat -->
+            </div><!-- Meals -->
+          </div><!-- Menu-content -->
+        </div>
+      </div>
+
+<script type="text/javascript" src="../js/app.js"></script>
+  </body>
+</html>
