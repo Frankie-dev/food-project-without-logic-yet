@@ -533,7 +533,6 @@ h1, h2, h3, h4, h5, h6
 
 /* Add meal */
 
-/* End of Add meal */
 .active_add_meal
 {
   width: 100%;
@@ -543,6 +542,7 @@ h1, h2, h3, h4, h5, h6
   left: 0;
   background: rgba(0, 0, 0, 0.76);
   z-index: 999;
+  transition: 0.3 linear;
 }
 .add_meal
 {
@@ -554,6 +554,7 @@ h1, h2, h3, h4, h5, h6
   z-index: 1000;
   border-radius: 10px;
   padding: 15px;
+  transition: 0.3 linear;
 }
 .add_meal div
 {
@@ -572,6 +573,7 @@ h1, h2, h3, h4, h5, h6
   border: none;
   font-size: 25px;
   color: #f1204c;
+  cursor: pointer;
 }
 .add_meal form
 {
